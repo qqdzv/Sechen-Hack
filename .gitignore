@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Логи
+*.log
+
+# Настройки среды
+.env
+
+# Виртуальные окружения
+venv/
+*.venv/
+
+# Обученные модели
+*.pth
+
+# Папки и файлы, которые не нужно добавлять
+*.sqlite3
+*.db
+*.pid
+*.pid.lock
+*.bak
+*.swp
+*.tmp
+db-data/
+# Другие настройки
+*.DS_Store
+*.idea/
+.vscode/

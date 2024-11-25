@@ -1,0 +1,23 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main, develop]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: executing remote ssh commands using ssh key
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          script: |
+            cd ${{ secrets.PROJECT_DIR }}
+            git switch ${{github.ref}}
+            git pull origin ${{ github.ref }}
+            docker compose up --build -d
