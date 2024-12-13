@@ -71,6 +71,8 @@
    ```bash
    docker compose up --build -d
    ```
+## **Демонстрация работы**
+   [Гугл диск](https://drive.google.com/file/d/13BOtTEDqvKlqxQ2qkyg5bJxjdEVAX_7y/view?usp=drive_link) (Доступ есть только у учетных записей НИТУ МИСИС)
 
 ### **Заключение**
 
