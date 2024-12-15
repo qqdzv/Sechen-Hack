@@ -15,7 +15,7 @@
 6. **Каримов Айдар** (ML-специалист): Работал над развитием архитектуры и интеграцией сервиса, дообучал vision transformer для классификации типа рака кожи, добавил медицинского чат-бота для консультации по заболеваниям. [Telegram](https://t.me/aidarkarimovvw)
 
 ## **Технологии**
-- **ML**: PyTorch, scikit-learn, Llama3.2 11b
+- **ML**: PyTorch, scikit-learn, gpt4o
 - **BACKEND**: FastAPI, Redis, PostgreSQL, SQLAlchemy, Docker
 - **Frontend**: Vue.js / PINIA
 - **OpenAI**
